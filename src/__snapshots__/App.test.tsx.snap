@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <div
+    class="page"
+  >
+    <div
+      class="page__filters filters"
+    >
+      Filters could go here
+    </div>
+    <div
+      class="page__results results"
+    />
+  </div>
+</DocumentFragment>
+`;

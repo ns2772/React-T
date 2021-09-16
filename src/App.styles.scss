@@ -1,0 +1,102 @@
+body {
+  background: #eee;
+  font-family: Helvetica, Arial, "Open Sans", sans-serif;
+}
+
+.page {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  position: relative;
+  width: 100%;
+
+  &__filters {
+    background: white;
+    padding: 1rem;
+  }
+
+  &__results {
+    flex: 1 0 60%;
+    padding: 0 1rem;
+  }
+}
+
+.movie {
+  background: white;
+  margin: 0 0 2rem 0;
+  padding-bottom: 0.01rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__actors {
+    &-list {
+      display: flex;
+
+      &-item {
+        list-style: none;
+        flex: 1 0 30%;
+      }
+    }
+  }
+
+  &__fun-facts {
+    background: #ccc;
+    font-size: 0.7rem;
+    font-style: italic;
+    margin: 0;
+    padding: 1rem;
+  }
+
+  &__locations {
+    &-list {
+      &-item {
+        list-style-type: square;
+        list-style-position: inside;
+      }
+    }
+  }
+
+  &__release-year {
+    display: inline-block;
+    font-size: 80%;
+    font-style: italic;
+    margin-left: 1rem;
+    vertical-align: 10%;
+
+    &:before {
+      content: "(";
+    }
+
+    &:after {
+      content: ")";
+    }
+  }
+
+  &__section {
+    margin: 1rem 0;
+    padding: 0;
+
+    &-title {
+      border-bottom: 1px solid black;
+      display: block;
+      margin: 0 1.5rem;
+      width: calc(100% - 3rem);
+    }
+
+    &-list {
+      margin: 0;
+      padding: 0.5rem 1.5rem;
+    }
+  }
+
+  &__title {
+    background: #444;
+    color: #eee;
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0;
+    padding: 0.5rem 1rem;
+  }
+}

@@ -1,0 +1,63 @@
+# React Coding Challenge
+
+- Approach this as you would a new project at work; consider the _organization_, _design_, and _test coverage_ of your code.
+
+- You should also think about aspects such as API _error handling_ or _unexpected responses_.
+
+## Problem
+
+You and your friends are huge movie buffs and are planning a trip to San Francisco to see all the neatest movie filming locations. Your friends want to pick which spots to visit on the fly; as a developer, you elect to make an app so the relevant data can come on vacation, too. To help your friends decide where to go, you will:
+
+- Allow them to sort by **release year** either ascending or descending
+- Allow them to search by **title** with partial matching
+
+Nothing is better than live user-testing, so you resolve to bring your laptop with you on the trip. You know, just in case.
+
+### Directions
+
+We have set up the API call to [Film Locations in San Francisco](https://data.sfgov.org/Arts-Culture-and-Recreation-/Film-Locations-in-San-Francisco/yitu-d5am), so the data is already available.
+
+Outside of the listed requirements, the UI/UX is totally up to you. If you like, get creative and add additional features! We have also provided basic styles, but they can always change if inspiration strikes you.
+
+## Criteria
+
+We will be reviewing your **architecture** decisions, the **efficiency** of your algorithms/data structures, and the **readability** of your code.
+
+A couple of specifics we will be looking for:
+
+- Console warnings are eliminated (or at least limited)
+- All components have sufficient unit-test coverage
+- All unit tests pass
+
+In regards to plugins, we tend to prefer in-house solutions because of various constraints. That said, go ahead and use whatever you like; again, be prepared to explain your decision.
+
+## Getting started
+
+We recommend [using `yarn`](https://yarnpkg.com/en/docs/install).
+
+This project was created using Node v15.14.0; you may run into issues with an older version.
+
+### Run the app
+
+```
+yarn && yarn start
+```
+
+This will install all the necessary packages and open [http://localhost:8080](http://localhost:8080) automatically in your browser.
+
+The page will reload if you make edits.  
+You will see any errors in the console.
+
+After you have done this the first time, you only need to run `yarn start`.
+
+### Test the app
+
+```
+yarn test
+```
+
+Launches the test runner in the interactive watch mode.
+
+### Documentation
+
+Feel free to check out the [React documentation](https://reactjs.org/) and / or the [TypeScript documentation](https://www.typescriptlang.org/docs/home.html).
